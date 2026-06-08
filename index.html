@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/assets/img/IMC.Realista.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Realista</title>
+</head>
+<body>
+   
+    <script src="script.js"></script>
+    <div class="header">
+        <h1>Descubra seu IMC</h1>
+    </div>
+    
+    <form onsubmit="calculateIMC(); return false;">
+    <input id="weightInput" type="number" placeholder="Seu peso (kg)">
+    <br>
+    <input id="heightInput" type="number" placeholder="Sua altura (m)">
+    <br>
+    <button type="submit">Calcular IMC</button>
+    </form>
+
+    <p id="imcMessage"></p>
+    <p id="classificationMessage"></p>
+        
+    <div class="footer">
+        <p>Feito sem ❤️ por <a href="https://github.com/serpa-png" target="_blank">Vítor Serpa.</a></p>
+    </div>
+</body>
+</html>
