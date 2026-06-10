@@ -1,9 +1,3 @@
-function register() {
-    const paragraph = document.querySelector("p")
-    const username = document.getElementById("usernameInput").value;
-    paragraph.innerHTML= "Welcome, " + username + "!";
-}
-
 function calculateIMC() {
     const weight = parseFloat(document.getElementById("weightInput").value);
     let height = parseFloat(document.getElementById("heightInput").value);
