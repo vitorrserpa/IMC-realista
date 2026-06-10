@@ -1,1 +1,1 @@
-# full
+# Calculadora de IMC cômica, feita para se divertir com amigos sinceros de humor ácido
